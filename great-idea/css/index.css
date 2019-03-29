@@ -64,3 +64,209 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.25;
+}
+ol, ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+nav  {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+	margin: 60px;
+	text-decoration: none;
+}
+nav a {
+	text-decoration: none;
+}
+h1{
+	font-size: 87px;
+
+} 
+.container1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	padding-bottom: 135px;
+}
+.container1 .text-container {
+	margin-left: 131px;
+    margin-right: 108px;
+}
+
+.container2  {
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.container3 {
+	border-bottom: 1px solid black;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 75px;
+
+}
+.middle-img {
+	width: 100%;
+}
+.copyright {
+	text-align: center;
+	padding: 50px;
+}
+body {
+	background: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+	background-size: cover;
+}
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+  
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+  
+button {
+	background-color: #4CAF50;
+	color: white;
+	margin: 8px 0;
+	border: 1px solid darkblue;
+	cursor: pointer;
+	width: 100px;
+	opacity: 0.9;
+}
+  
+  button:hover {
+	opacity:1;
+  }
+  .cancelbtn {
+	padding: 14px 20px;
+	background-color: #f44336;
+  }
+  .cancelbtn, .signupbtn {
+	float: left;
+	width: 30%;
+	height: 45px;
+  }
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  @media screen and (max-width: 300px) {
+	.cancelbtn, .signupbtn {
+	  width: 100%;
+	}
+  }
+.mainContainer {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.services-header-img {
+	width: 100%;
+}
+.services-container {
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+.services-container1 {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+.services-container2 {
+	padding-top: 50px;
+}
+.text-container4 {
+	width: 48%;
+	background-color:rgba(44, 44, 187, 0.3);
+	margin: 10px;
+}
+.services-footer {
+	display: flex;
+	padding-top: 50px;
+	width: 100%;
+}
+.text-container5 {
+	align-content: flex-start;
+	width:50%;
+}
+ul {
+	list-style-type: disc;
+}	
